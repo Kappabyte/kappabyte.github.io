@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(38, 38, 38, 0.8);
+    backdrop-filter: blur(20px);
+    padding: 8px;
+    margin: -8px;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
