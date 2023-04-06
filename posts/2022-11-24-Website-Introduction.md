@@ -19,7 +19,8 @@ A note[^1]
 
 [^1]:Test
 
-```python {1}
+```python
+# This is a comment
 in = input("Test")
 print(in)
 ```

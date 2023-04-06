@@ -1,9 +1,4 @@
 import TwoColumn from "../../components/layout/TwoColumn";
-import Image from "next/image";
-
-import style from "../styles/page/home.module.css"
-
-import profilePicture from "../public/test.png"
 import Panel from "../../components/core/Panel";
 
 export default async function Page() {

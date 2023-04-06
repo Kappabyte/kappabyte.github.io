@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown table,.markdown th,.markdown td {
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.markdown table {
+    margin: 4px;
+    width: 100%;
+}
+
+.markdown .footnotes {
+    border-top: 1px rgb(75 85 99) solid;
+    padding-top: 4px;
+    margin-top: 16px;
+}
+
+.markdown .footnotes>h2 {
+    font-size: xx-large;
+}

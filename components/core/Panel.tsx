@@ -1,9 +1,7 @@
 import {ReactNode} from "react";
 
-import style from "../../styles/components/core/panel.module.css"
-
 const Panel = ({children}: {children: ReactNode}) => {
-    return <div className={style.panel}>
+    return <div className="p-4">
         {children}
     </div>
 }

@@ -6,10 +6,9 @@ import remarkGfm from "remark-gfm";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
-import rehypeHighlight from 'rehype-highlight'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import rangeParser from 'parse-numeric-range'
-import { androidstudio as theme } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+import { default as theme } from './catppuccin-mocha';
 
 const MarkdownComponents: object = {
     code({ node, inline, className, ...props }:any) {
@@ -34,6 +33,7 @@ const MarkdownComponents: object = {
             }
         }
 
+        // noinspection RequiredAttributes
         return match ? (
             <SyntaxHighlighter
                 style={theme}
@@ -44,14 +44,13 @@ const MarkdownComponents: object = {
                 wrapLines={!!hasMeta}
                 useInlineStyles={true}
                 lineProps={applyHighlights}
-                {...props}
-            />
+                {...props}/>
         ) : (
             <code className={className} {...props} />
         )
     },
 }
 
-const Markdown = (props: any) => <ReactMarkdown remarkPlugins={[remarkMath, remarkGfm]} rehypePlugins={[rehypeKatex]} components={MarkdownComponents}>{props.children}</ReactMarkdown>;
+const Markdown = (props: any) => <ReactMarkdown className="markdown text-white" remarkPlugins={[remarkMath, remarkGfm]} rehypePlugins={[rehypeKatex]} components={MarkdownComponents}>{props.children}</ReactMarkdown>;
 
 export default Markdown;

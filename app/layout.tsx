@@ -1,14 +1,14 @@
+import './globals.css';
 import React from "react";
 import Header from "../components/core/header";
-import  "../styles/globals.css"
 
-export default ({children}: { children: React.ReactNode }) => (
-    <html lang="en">
-        <body>
-            <Header />
+export default function layout({children}: { children: React.ReactNode }) {
+    return <html lang="en">
+        <body className="mocha bg-mantle">
+            <Header/>
             <main>
                 {children}
             </main>
         </body>
     </html>
-)
+}
