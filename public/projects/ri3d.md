@@ -23,5 +23,5 @@ and gave me insight about new concepts for me at the time such as lambda express
 
 # My Contributions
 
-You can see my contributions to the codebase [here](https://github.com/Alberta-Collegiate-Robotics/RI3D-2020/commits/master/?author=Kappabyte). I was one of
+You can see my contributions to the codebase [here](https://github.com/Alberta-Collegiate-Robotics/RI3D-2020/commits/master/?author=akeuben). I was one of
 the main contributors to the codebase, working closely with one of the university students who ran the code team. 

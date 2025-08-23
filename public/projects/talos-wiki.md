@@ -4,8 +4,8 @@ images:
     - /assets/images/project/talos-wiki/terminal-a6.png
 description: A visual wiki for the game 'The Talos Principle'. Mimicks the UI of the original game.
 links:
-    source: https://github.com/Kappabyte/talos-visual-wiki
-    view: https://kappabyte.github.io/talos-visual-wiki
+    source: https://github.com/akeuben/talos-visual-wiki
+    view: https://akeuben.github.io/talos-visual-wiki
 tags:
     - react
 ---

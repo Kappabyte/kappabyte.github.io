@@ -4,7 +4,7 @@ images:
     - /assets/images/project/mineclone/mineclone.png
 description: A clone of the game Minecraft, which I made for my high school computer science 30 final project.
 links:
-    source: https://github.com/Kappabyte/MinecraftClone
+    source: https://github.com/akeuben/MinecraftClone
 tags:
     - opengl
     - gamedev

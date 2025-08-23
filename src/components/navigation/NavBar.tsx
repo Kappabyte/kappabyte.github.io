@@ -25,7 +25,7 @@ export const NavBar = () => {
                 <NavbarLink name="Projects" path="/projects" />
                 <NavbarLink name="Resumé" path="/resume" />               
                 <div>
-                    <NavbarIcon icon={<MarkGithubIcon />} path="https://github.com/Kappabyte" />
+                    <NavbarIcon icon={<MarkGithubIcon />} path="https://github.com/akeuben" />
                 </div>
             </div>
             {!isDesktop && <div className={styles.hamburger} onClick={() => setHamburgerOpen(!hamburgerOpen)}>{hamburgerOpen ? <XIcon /> : <ThreeBarsIcon />}</div>}
