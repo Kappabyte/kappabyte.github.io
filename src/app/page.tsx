@@ -23,17 +23,14 @@ export default function HomePage() {
         <Hero />
         <main>
             <GithubStats />
-            <TwoCol fit="left">
-                <Image className={styles.portrait} src="/assets/me.jpg" alt="portrait photo of Avery Keuben" width={200} height={200}/>
-                <section>
-                    <p>Hi! I&apos;m Avery</p>
-                    <p>I&apos;m a software engineer based out of Calgary, Alberta. I have over <YearsSince date={new Date("2013/09/01 00:00:00")} includeSuffix /> years of hobbiest programming experience, 
-                        and just over <YearsSince date={new Date("2023/05/01 00:00:00")} includeSuffix /> of professional experience. Over my programming career, I have learned a variety of languages,
-                        created many personal projects, and have strived to learn as much as possible.</p>
-                    <p>My current areas of interest are game development (especially engine development), low level programming (including operating systems and firmware), and theoretical computer science. However,
-                        I am always open to learning new technologies and fields when I get the chance.</p>
-                </section>
-            </TwoCol>
+            <section>
+                <p>Hi! I&apos;m Avery</p>
+                <p>I&apos;m a software engineer based out of Calgary, Alberta. I have over <YearsSince date={new Date("2013/09/01 00:00:00")} includeSuffix /> years of hobbiest programming experience, 
+                    and just over <YearsSince date={new Date("2023/05/01 00:00:00")} includeSuffix /> of professional experience. Over my programming career, I have learned a variety of languages,
+                    created many personal projects, and have strived to learn as much as possible.</p>
+                <p>My current areas of interest are game development (especially engine development), low level programming (including operating systems and firmware), and theoretical computer science. However,
+                    I am always open to learning new technologies and fields when I get the chance.</p>
+            </section>
             <Automota boardHeight={10} tileSize={20} ruleSet={{
                 born: [3,4],
                 survive: [3,4]
