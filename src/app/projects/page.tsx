@@ -9,6 +9,9 @@ export default function ProjectsPage() {
             <p>
                 Below are a list of projects I have either completed, or am currently working on.
             </p>
+            <p>
+                For a complete list, please check out my <a href="https://github.com/akeuben">github</a>.
+            </p>
             <ProjectGrid />
         </main>
         </>

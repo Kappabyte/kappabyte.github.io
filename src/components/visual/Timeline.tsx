@@ -37,12 +37,12 @@ export const Timeline = ({events}: {events: TimelineEvent[]}) => {
     return <div className={styles.timeline}>
         {Object.keys(eventsByYear).toSorted((a, b) => parseInt(b) - parseInt(a)).map((year) => 
             <div key={year}>
-                <i>{year}</i>
                 <div className={styles.timelineYearBox}>
                     {
                         eventsByYear[year].map(event => <TimelineEventComponent key={event.name} event={event} />)
                     }
                 </div>
+                <i>{year}</i>
             </div>
         )}
     </div>

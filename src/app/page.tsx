@@ -13,8 +13,8 @@ import { ProjectCard } from "@/components/project/ProjectCard";
 import { Automota } from "@/components/visual/automota/AutomotaComponent";
 
 const featuredProjects = [
+    "gears",
     "mineclone",
-    "gears"
 ]
 
 export default function HomePage() {

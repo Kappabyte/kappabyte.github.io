@@ -1,8 +1,8 @@
 ---
-name: Minecraft Clone
+name: Voxel Game Demo
 images: 
     - /assets/images/project/mineclone/mineclone.png
-description: A clone of the game Minecraft, which I made for my high school computer science 30 final project.
+description: A voxel game engine and demo, which I made for my high school computer science 30 final project.
 links:
     source: https://github.com/akeuben/MinecraftClone
 tags:

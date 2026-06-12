@@ -21,6 +21,10 @@ export const education: TimelineEvent[] = [
             month: "September",
             year: 2022
         },
+        end: {
+            month: "April",
+            year: 2026
+        },
         description: "Achieved a GPA of 3.87 in first year, and a GPA of 3.73 in second year.",
     }
 ]
