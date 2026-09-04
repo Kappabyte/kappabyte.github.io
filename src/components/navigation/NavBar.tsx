@@ -23,7 +23,7 @@ export const NavBar = () => {
                 <NavbarLink name="Home" path="/" />
                 <NavbarLink name="Posts" path="/posts" />
                 <NavbarLink name="Projects" path="/projects" />
-                <NavbarLink name="Resumé" path="/resume" />               
+                <NavbarLink name="Resumé" path="https://resume.akeuben.ca" />               
                 <div>
                     <NavbarIcon icon={<MarkGithubIcon />} path="https://github.com/akeuben" />
                 </div>
